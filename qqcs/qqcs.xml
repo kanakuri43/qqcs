@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<qqcsSettings>
+  <ConnectString>
+    Data Source=172.16.3.141;Initial Catalog=GBS_V1_DATA;User ID=sa;Password=Sapassword1
+  </ConnectString>
+  <MaxRecordCount>1000</MaxRecordCount>
+  <Query id="0">
+    <Name>nippou</Name>
+    <SQL>
+      SELECT
+        operation_date
+        , process_name
+        , operation_hours
+        , employee_name
+      FROM
+        uv_daily_journal v
+      WHERE
+        process_id = 1
+      ORDER BY
+        operation_date
+        , detail_id
+    </SQL>
+    <Param id="0">
+      <Name>集計日</Name>
+      <Value>20210430</Value>
+    </Param>
+  </Query>
+  <Query id="1">
+    <Name>請求残高一覧</Name>
+    <SQL>
+      SELECT
+      S.請求先コード
+      , M.得意先名
+      , FORMAT(S.前残, N'#,0') 前回請求額
+      , FORMAT(S.入金, N'#,0') 入金金額
+      , FORMAT(S.前残 - S.入金, N'#,0') 前回繰越金額
+      , FORMAT(S.純売上, N'#,0') 純売上金額
+      , FORMAT(S.消費税, N'#,0') 消費税額
+      , FORMAT(S.純売上 + S.消費税, N'#,0') 税込売上額
+      , FORMAT(S.請求額, N'#,0') 今月請求額
+      FROM
+      S請求履歴 S
+      LEFT JOIN M得意先 M
+      ON S.請求先コード = M.得意先コード
+      WHERE
+      S.請求日 = #param0
+      AND (
+      S.請求額 != 0
+      OR S.前残 != 0
+      OR S.純売上 != 0
+      OR S.入金 != 0
+      )
+      ORDER BY
+      S.請求先コード
+    </SQL>
+    <Param id="0">
+      <Name>対象年月</Name>
+      <Value>20200131</Value>
+    </Param>
+  </Query>
+  <Query id="2">
+    <Name>受注データ検索</Name>
+    <SQL>
+      SELECT
+      連番
+      , 伝票日付 受注日付
+      , 伝票番号 受注番号
+      , 得意先名
+      , 品種名
+      , 台木名
+      , 等級
+      , FORMAT(数量, N'#,0') 数量
+      , FORMAT(金額, N'#,0') 金額
+      FROM
+      D売上入金
+      WHERE
+      削除区分 = 0
+      AND データ区分 = 1
+      AND 伝票日付 BETWEEN #param0 AND #param1
+      AND 納品日付 BETWEEN #param2 AND #param3
+      ORDER BY
+      伝票日付
+      , 伝票番号
+      , 行番号
+    </SQL>
+    <Param id="0">
+      <Name>伝票開始</Name>
+      <Value>20210101</Value>
+    </Param>
+    <Param id="1">
+      <Name>伝票終了</Name>
+      <Value>20211231</Value>
+    </Param>
+    <Param id="2">
+      <Name>納品開始</Name>
+      <Value>0</Value>
+    </Param>
+    <Param id="3">
+      <Name>納品終了</Name>
+      <Value>99999999</Value>
+    </Param>
+  </Query>
+</qqcsSettings>

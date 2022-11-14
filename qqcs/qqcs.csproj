@@ -109,5 +109,10 @@
     </PackageReference>
     <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="qqcs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

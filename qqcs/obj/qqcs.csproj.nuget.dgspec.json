@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\repos\\qqcs\\qqcs\\qqcs.csproj": {}
+    "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj": {}
   },
   "projects": {
-    "C:\\source\\repos\\qqcs\\qqcs\\qqcs.csproj": {
+    "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
+        "projectUniqueName": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
         "projectName": "qqcs",
-        "projectPath": "C:\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
+        "projectPath": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
         "packagesPath": "C:\\Users\\User3077\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\repos\\qqcs\\qqcs\\obj\\",
+        "outputPath": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
