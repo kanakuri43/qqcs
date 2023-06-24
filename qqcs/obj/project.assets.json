@@ -12,10 +12,14 @@
           "System.Web.Extensions"
         ],
         "compile": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MahApps.Metro/2.4.5": {
@@ -28,10 +32,14 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/net47/de/MahApps.Metro.resources.dll": {
@@ -51,19 +59,27 @@
           "WindowsBase"
         ],
         "compile": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Core/8.0.0.1909": {
         "type": "package",
         "compile": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Unity/8.0.0.1909": {
@@ -73,10 +89,14 @@
           "Unity.Container": "5.11.8"
         },
         "compile": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Wpf/8.0.0.1909": {
@@ -89,19 +109,27 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.2": {
@@ -110,10 +138,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Unity.Abstractions/5.11.6": {
@@ -122,10 +154,14 @@
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Unity.Container/5.11.8": {
@@ -135,10 +171,14 @@
           "Unity.Abstractions": "5.11.6"
         },
         "compile": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -153,10 +193,14 @@
           "System.Web.Extensions"
         ],
         "compile": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MahApps.Metro/2.4.5": {
@@ -169,10 +213,14 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/net47/de/MahApps.Metro.resources.dll": {
@@ -192,19 +240,27 @@
           "WindowsBase"
         ],
         "compile": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Core/8.0.0.1909": {
         "type": "package",
         "compile": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Unity/8.0.0.1909": {
@@ -214,10 +270,14 @@
           "Unity.Container": "5.11.8"
         },
         "compile": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Wpf/8.0.0.1909": {
@@ -230,19 +290,27 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.2": {
@@ -251,10 +319,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Unity.Abstractions/5.11.6": {
@@ -263,10 +335,14 @@
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Unity.Container/5.11.8": {
@@ -276,10 +352,14 @@
           "Unity.Abstractions": "5.11.6"
         },
         "compile": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -294,10 +374,14 @@
           "System.Web.Extensions"
         ],
         "compile": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MahApps.Metro/2.4.5": {
@@ -310,10 +394,14 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/net47/de/MahApps.Metro.resources.dll": {
@@ -333,19 +421,27 @@
           "WindowsBase"
         ],
         "compile": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Core/8.0.0.1909": {
         "type": "package",
         "compile": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Unity/8.0.0.1909": {
@@ -355,10 +451,14 @@
           "Unity.Container": "5.11.8"
         },
         "compile": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Wpf/8.0.0.1909": {
@@ -371,19 +471,27 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.2": {
@@ -392,10 +500,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Unity.Abstractions/5.11.6": {
@@ -404,10 +516,14 @@
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Unity.Container/5.11.8": {
@@ -417,10 +533,14 @@
           "Unity.Abstractions": "5.11.6"
         },
         "compile": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         }
       }
     },
@@ -435,10 +555,14 @@
           "System.Web.Extensions"
         ],
         "compile": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net462/ControlzEx.dll": {}
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "MahApps.Metro/2.4.5": {
@@ -451,10 +575,14 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/MahApps.Metro.dll": {}
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/net47/de/MahApps.Metro.resources.dll": {
@@ -474,19 +602,27 @@
           "WindowsBase"
         ],
         "compile": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Core/8.0.0.1909": {
         "type": "package",
         "compile": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.dll": {}
+          "lib/net47/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Unity/8.0.0.1909": {
@@ -496,10 +632,14 @@
           "Unity.Container": "5.11.8"
         },
         "compile": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Unity.Wpf.dll": {}
+          "lib/net47/Prism.Unity.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Prism.Wpf/8.0.0.1909": {
@@ -512,19 +652,27 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net47/Prism.Wpf.dll": {}
+          "lib/net47/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.2": {
@@ -533,10 +681,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Unity.Abstractions/5.11.6": {
@@ -545,10 +697,14 @@
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "compile": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Abstractions.dll": {}
+          "lib/net47/Unity.Abstractions.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Unity.Container/5.11.8": {
@@ -558,10 +714,14 @@
           "Unity.Abstractions": "5.11.6"
         },
         "compile": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net47/Unity.Container.dll": {}
+          "lib/net47/Unity.Container.dll": {
+            "related": ".pdb"
+          }
         }
       }
     }
@@ -848,25 +1008,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User3077\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\su\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
+      "projectUniqueName": "C:\\Users\\su\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
       "projectName": "qqcs",
-      "projectPath": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
-      "packagesPath": "C:\\Users\\User3077\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User3077\\source\\repos\\qqcs\\qqcs\\obj\\",
+      "projectPath": "C:\\Users\\su\\source\\repos\\qqcs\\qqcs\\qqcs.csproj",
+      "packagesPath": "C:\\Users\\su\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\su\\source\\repos\\qqcs\\qqcs\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User3077\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\su\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -874,7 +1029,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.c1.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
